@@ -1,0 +1,19 @@
+# Site settings
+title: Pendigo
+header-img: img/home-bg.jpg
+email: yoblooc295@gmail.com
+description: "A Simple Blog for My Simple Life"
+baseurl: ""
+url: "http://pendigo.xyz"
+translator: Pendigo
+twitter_username: StillezOne
+github_username:  stillez
+facebook_username:  eziopc
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js", "_drafts"]
+gems: [jekyll-paginate]
